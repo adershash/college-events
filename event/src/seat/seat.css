@@ -1,0 +1,21 @@
+.seat{
+    text-align: center;
+}
+
+.seat1{
+  width: 40px;
+  height: 40px;
+  margin:5px;
+  background-color: rgb(221 229 227 / 80%);
+  
+  border-radius: 5px;
+  margin-top: 7.5px;
+  margin-bottom: 7.5px;
+  border:1px solid #1ea83c;
+  color:#1ea83c;
+  font-size: 12px;
+}
+button:disabled{
+  
+  color:white;
+}

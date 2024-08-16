@@ -1,0 +1,60 @@
+.main-rowpost {
+   width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+    color:black;
+   
+  }
+  
+  
+  .slick-slide > div {
+    margin: 0 20px;
+  }
+  .slick-list {
+    margin: 0 -10px;
+  }
+  
+  .card {
+    border: none;
+    background:black;
+    box-sizing: border-box;
+    border-radius: 8px;
+    overflow: hidden;
+    width:20px;
+    height: 360px;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+  }
+ 
+  
+  .card-top h1 {
+    font-size: 0.9rem;
+    margin: 12px;
+  }
+  
+  .card-top > img {
+    width: 100%;
+    height: 320px;
+    object-fit: fill;
+    background: black;
+  }
+  
+  .card-bottom {
+    margin: 10px 20px;
+ 
+  }
+  
+  .category {
+    position: relative;
+  }
+  .category::before {
+    content: '';
+    background: rgb(255, 61, 61);
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    right: 0;
+    height: 2px;
+  }
